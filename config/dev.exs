@@ -49,8 +49,8 @@ config :phoenix, :stacktrace_depth, 20
 # Configure your database
 config :sinema, Sinema.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
+  username: "paul_oguda",
+  password: "password",
   database: "sinema_dev",
   hostname: "localhost",
   pool_size: 10
