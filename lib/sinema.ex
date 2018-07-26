@@ -9,7 +9,7 @@ defmodule Sinema do
     # Define workers and child supervisors to be supervised
     children = [
       # Start the Ecto repository
-      supervisor(Sinema.Repo, []),
+      # supervisor(Sinema.Repo, []),
       # Start the endpoint when the application starts
       supervisor(Sinema.Endpoint, []),
       # Start your own worker by calling: Sinema.Worker.start_link(arg1, arg2, arg3)
